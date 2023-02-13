@@ -1,0 +1,64 @@
+.inputType1-container{
+  margin: 20px 0;
+}
+.inputType1-container label{
+  display: block;
+  padding:10px 28px
+}
+.inputType1-text{
+  color:#606874;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.inputType1-container input{
+    padding: 20px 28px;
+    cursor: pointer;
+    display: flex;
+    height: 57px;
+    width: 100%;
+    /* width: 320px; */
+    border-radius: 82px;
+    border: 3px solid #344153;
+    background-color: #24303E;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    user-select: none;
+    outline: none;
+}
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #606874;;
+    opacity: 1; /* Firefox */
+  }
+  
+  input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #606874;;
+  }
+  
+  input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #606874;;
+  }
+  .inputError{
+    display: none;
+    /* display: block; */
+    font-size: 12px;
+    padding: 2px 28px;
+    padding-right: 10px;
+    color: rgb(183, 38, 45);
+    /* color:#505762;; */
+    ;
+  }
+  input:invalid[focused='true'] ~.inputError{
+    display: block;
+  }
+  /* input:invalid[focused='true']{
+    border: 1px solid  rgb(183, 38, 45);
+  } */
+  /* input:invalid[focused='true'] ~.inputType1-container{
+    display: none;
+  } */

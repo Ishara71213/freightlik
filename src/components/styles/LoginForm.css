@@ -1,0 +1,132 @@
+.loginForm-container{
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginForm-Header{
+    display: flex;
+}
+.loginForm-wrapper{
+    max-height: fit-content;
+    min-height: 540px;
+    
+    /* height: 510px; */
+    width: 400px;
+    border-radius: 36px;
+    background: #24303E;
+    padding: 0 50px;
+
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.LoginForm-title{
+
+    color: #878F9A;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+    margin-top: 38px;
+    margin-bottom: 10%;
+}
+.inputform-remMe-containe{
+    margin: 12px 0;
+}
+
+.inputform-remMe-text{
+    cursor: pointer;
+    color: #606874;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    padding-left:12px;
+
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+.loginForn-btn{
+    cursor: pointer;
+    border: none;
+    background-color: #45DABD;
+
+    height: 57px;
+    width: 100%;
+    border-radius: 82px;
+    margin: 18px 0;
+
+    color: #24303E;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    transition: 0.5s;
+}
+.loginForn-btn:hover{
+    /* background:#22cb8a; */
+    background-color: #13c19e;
+    transition: 0.8s;
+}
+.loginForm-forgetPassword {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.loginForm-forgetPassword span{
+    color: #878F9A;
+    cursor: pointer;
+}
+.loginForm-forgetPassword span:hover{
+    text-decoration: underline;
+}
+
+.loginForm-register{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #878F9A;
+    margin-top: 18px;
+    margin-bottom: 32px;
+}
+.loginForm-register span{
+    color: #5EB4A4;
+    cursor: pointer;
+}
+.loginForm-register span:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .loginForm-wrapper{
+        width: 100vw;
+        border-radius: 0px;
+
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .LoginForm-title{
+        margin-bottom: 15%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .LoginForm-title{
+        margin-top: 50px;
+    }
+    .loginForm-wrapper{
+        padding: 0 30px;
+        margin-bottom: 5px;
+    }
+}
