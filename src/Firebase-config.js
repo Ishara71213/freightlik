@@ -1,8 +1,10 @@
 import { initializeApp } from "firebase/app";
 import {getAuth} from 'firebase/auth';
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAx3Eb1v9mYthjvgSW_ePBRB0Cfxbmc4F4",
+    // apiKey: "process.env.FREIGHTLIK_APP_FIREBASE_KEY",
+    apiKey: 'AIzaSyAx3Eb1v9mYthjvgSW_ePBRB0Cfxbmc4F4',
     authDomain: "freightlik.firebaseapp.com",
     projectId: "freightlik",
     storageBucket: "freightlik.appspot.com",
@@ -13,3 +15,4 @@ const firebaseConfig = {
 
   const app = initializeApp(firebaseConfig);
   export const auth=getAuth(app);
+  export const db = getFirestore(app);

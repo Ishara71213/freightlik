@@ -1,0 +1,29 @@
+.profileContainer{
+  width:100%;
+  height:100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.portalHeader{
+  position:sticky;
+  top: 0;
+  left: 0;
+  /* padding-left: 50px; */
+}
+.profilePageBody{
+  display: flex;
+  justify-content: space-between;
+  
+ }
+.portalSideNav{
+  /* position:absolute; */
+  top: 12vh;
+  left: 0px;
+  z-index: 5;
+}
+.sideScroll{
+  margin-left:80px;
+  flex-grow: 1;
+}
+

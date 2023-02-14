@@ -12,9 +12,9 @@
     {
         id:2,
         name:'email',// e.trget.name reffers to this
-        type:'text',
+        type:'email',
         placeholder:'Email',
-        errorMessage:'*Email Required',
+        errorMessage:'*Valid Email Required',
         required: true,
         // label:'Email'
     },

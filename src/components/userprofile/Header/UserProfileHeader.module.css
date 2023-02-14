@@ -1,4 +1,5 @@
 .container{
+    position: relative;
     width:100%;
     height: 12vh;
     background-color: #24303E;
@@ -22,15 +23,32 @@
     padding-bottom: 2px;
     padding: 0 5px;
     border-bottom: 2px solid #45DABD;
+    cursor: pointer;
     /* line-height: 36px; */
 }
 .userProfile{
     display: flex;
     align-items: center;
 }
+.profileImgWrapper{
+  cursor: pointer;
+}
 .userName{
     color: #CBD0D6;
     padding: 5px 10px;
+}
+.profileOptions{
+    position:absolute;
+    top:1000px;
+    right: 0;
+    width: 200px;
+    height: 300px;
+    background-color: #344152;
+}
+.profileOptions p{
+    text-align: center;
+    color: #CBD0D6;
+    font-size: 20px;
 }
 
 

@@ -1,8 +1,8 @@
 import './styles/LoginPage.css'
-import {Logo} from './Logo';
+import {Logo} from '../Logo';
 import { LoginForm } from './LoginForm';
 import {FaLinkedin} from 'react-icons/fa'
-import {LogoSet} from './LogoSet';
+import {LogoSet} from '../LogoSet';
 
 
 export const LoginPage = () => {
@@ -13,16 +13,15 @@ export const LoginPage = () => {
         <FaLinkedin size={40} color='#61c4b4'/>
       </div>
       <LoginForm/>
-  
-        <div className='loginPage-footer'>
-            {
-              LogoSet.map((item)=>{
-                return <div className='loginPage-footer-logo' key={item.id}>
-                   <Logo subLine={item.subLine} color={item.color} width={200} dotColor={item.dotColor}/>
-                </div>
-              })
-            }
-        </div>
+      <div className='loginPage-footer'>
+          {
+            LogoSet.map((item)=>{
+              return <div className='loginPage-footer-logo' key={item.id}>
+                 <Logo subLine={item.subLine} color={item.color} width={200} dotColor={item.dotColor}/>
+              </div>
+            })
+          }
+      </div>
       
       
     </div>

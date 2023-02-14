@@ -1,5 +1,6 @@
 .loginPage-container{
     height:100vh;
+    background-color: #1B2430;
     max-width: 1600px;
     display: flex;
     flex-direction: column;

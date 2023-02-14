@@ -1,0 +1,85 @@
+.formContainer{
+  
+    
+}
+.UDformTitleContainer{
+    display: flex;
+    min-width: 50vw;
+    max-width: 900px;
+    justify-content: space-between;
+    padding: 16px 24px;
+    /* border-radius: 9px; */
+    background-color: #f6f6f6;
+    margin-top:20px;    
+    margin-right: 30px;
+    
+    cursor: pointer;
+    transition: 0.2s;
+}
+.UDformTitleContainer:hover{
+    background-color: #efefef;
+    transition: 0.2s;
+    /* color: rgb(102, 184, 165); */
+}
+.UDformText{
+    color: #1B2430;
+    font-size: 20px;
+    font-weight: 600;
+}
+.UDIcon{
+    font-size: 22px;
+}
+.UDFormWrapper{
+  min-width: 50vw;
+  max-width: 900px;
+  height: 400px;
+  background-color: #f8f7f7;
+  display: flex;
+  padding: 16px 24px;
+  margin-right: 30px;
+  display: flex;
+
+}
+.UDProfileImg{
+    min-width:200px;
+    height:200px;
+    background-color: rgb(92, 92, 92);
+    border-radius: 200px;
+}
+.UDform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.UDUserInputs{
+    margin-left:15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 80px 80px;
+}
+.Udinputwrapper{
+  margin: 10px 40px;
+}
+.UDsubmitbtn{
+    cursor: pointer;
+    border: none;
+    background-color: #45DABD;
+
+    height: 42px;
+    width: 150px;
+    border-radius: 82px;
+    margin: 18px 20px;
+
+    color: #24303E;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    transition: 0.5s;
+}
+.UDsubmitbtn:hover{
+    /* background:#22cb8a; */
+    background-color: #13c19e;
+    transition: 0.8s;
+}
