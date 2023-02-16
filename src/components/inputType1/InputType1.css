@@ -26,22 +26,22 @@
 
     -webkit-user-select: none;
     -moz-user-select: none;
-    -ms-user-select: none;
+    -ms-user-select: none; 
     user-select: none;
     user-select: none;
     outline: none;
 }
 input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #606874;;
+    color: #606874;
     opacity: 1; /* Firefox */
   }
   
   input:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #606874;;
+    color: #606874;
   }
   
   input::-ms-input-placeholder { /* Microsoft Edge */
-    color: #606874;;
+    color: #606874;
   }
   .inputError{
     display: none;

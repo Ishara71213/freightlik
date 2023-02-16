@@ -25,5 +25,12 @@
 .sideScroll{
   margin-left:80px;
   flex-grow: 1;
+} 
+.userDetailFormContainer{
+ 
+}
+.userSearchContainer{
+  margin: 50px 0;
+  max-width: 1000px
 }
 

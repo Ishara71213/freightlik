@@ -1,0 +1,66 @@
+.userSearch-container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 50% 18% 18% 14%;
+    width: 100%;
+    filter: drop-shadow(-4px 4px 25px rgba(0, 0, 0, 0.08));
+}
+.userNameSearch{
+    display: flex;
+    max-width: 100%;
+   
+    height: 56px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px; 
+    
+    color: #606874;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    user-select: none;
+    outline: none;
+    
+    /* border: none; */
+}
+.userSearch-container .SearchNameInput{
+    border: none;
+    border-radius: 48px 0px 0px 48px;
+    padding: 0 30px ;
+}
+.userSearch-container .SearchCountryInput{
+    border: none;
+    border-left: 1.4px solid #D8E0E0;
+    padding: 0 20px ;
+ 
+}
+.userSearch-container .SearchCityInput{
+    border: none;
+    border-left: 1.4px solid #D8E0E0;
+    padding: 0 20px ;
+}
+
+.userSearchBtn{
+    cursor: pointer;
+    border: none;
+    background-color: #45DABD;
+
+    height: 56px;
+    width: 100%;
+    border-radius: 0 82px 82px 0;
+
+    color: #24303E;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    transition: 0.5s;
+}
+.userSearchBtn:hover{
+    /* background:#22cb8a; */
+    background-color: #13c19e;
+    transition: 0.8s;
+}

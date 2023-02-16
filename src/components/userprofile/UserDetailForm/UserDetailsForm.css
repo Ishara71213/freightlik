@@ -5,7 +5,7 @@
 .UDformTitleContainer{
     display: flex;
     min-width: 50vw;
-    max-width: 900px;
+    max-width: 1000px;
     justify-content: space-between;
     padding: 16px 24px;
     /* border-radius: 9px; */
@@ -24,14 +24,14 @@
 .UDformText{
     color: #1B2430;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 600; 
 }
 .UDIcon{
     font-size: 22px;
 }
 .UDFormWrapper{
   min-width: 50vw;
-  max-width: 900px;
+  max-width: 1000px;
   height: 400px;
   background-color: #f8f7f7;
   display: flex;
