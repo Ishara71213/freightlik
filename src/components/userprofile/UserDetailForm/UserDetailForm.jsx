@@ -39,7 +39,7 @@ export const UserDetailForm = (props) => {
     } catch (error) {
       console.error("Error adding document: ", error);
     }
-    console.log(valuesReg, props.userId);
+    // console.log(valuesReg, props.userId);
   };
 
   return (

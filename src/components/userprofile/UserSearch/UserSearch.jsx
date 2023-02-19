@@ -1,6 +1,6 @@
 import "./UserSearch.css";
 import { useEffect, useState } from "react";
-import { collection, getDocs } from "firebase/firestore";
+// import { collection, getDocs } from "firebase/firestore";
 
 export const UserSearch = () => {
   const [countries, setCountries] = useState([]);
